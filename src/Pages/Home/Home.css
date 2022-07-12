@@ -1,0 +1,11 @@
+.home {
+  position: absolute;
+  /* width: 1920px;
+  height: 780px; */
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+   background-image: url("./../../../public/assets/header_image\ 1.png"),
+    linear-gradient(180deg, rgba(14, 17, 28, 0.8) 0%, rgba(14, 17, 28, 0) 100%);
+}
