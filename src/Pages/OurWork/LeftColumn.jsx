@@ -1,4 +1,5 @@
 import React from "react";
+import "./LeftColumn.css";
 import img1 from "./../../assets/our works/services/01.DRONE TRANSPORT.png";
 import img2 from "./../../assets/our works/services/02.REAL ESTATE.png";
 import img3 from "./../../assets/our works/services/03.Still photography.png";

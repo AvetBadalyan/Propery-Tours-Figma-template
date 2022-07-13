@@ -1,0 +1,53 @@
+.left-column {
+  width: 10.5vw;
+  height: inherit;
+  border: 1px solid yellow;
+}
+
+.service-box {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background: rgb(244, 244, 244);
+}
+
+.service-box img {
+  height: 30px;
+}
+
+.service-title {
+  width: 124px;
+  height: 32px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(26, 26, 26, 1);
+}
+
+.arrow-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27px;
+}
+
+.arrow-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(231, 231, 231, 1);
+  height: 27px;
+
+}
+
+.sep-line{
+    color: red;
+    height: 10px;
+    width: 10px;
+}
