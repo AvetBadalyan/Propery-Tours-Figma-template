@@ -1,0 +1,59 @@
+.our-work-top-part {
+  height: 153px;
+  border: 2px solid aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 3vw;
+}
+
+.filter-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-menu-text {
+  width: 60px;
+  height: 16px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1a1a1a;
+}
+
+.filter-category-button {
+  width: 120px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter-category-button img {
+  height: 15px;
+  width: 16px;
+}
+
+.clear-filter-button {
+  width: 29px;
+  height: 16px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #1a1a1a;
+}
+
+
