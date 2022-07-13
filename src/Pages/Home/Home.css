@@ -1,11 +1,14 @@
 .home {
   position: absolute;
-  /* width: 1920px;
-  height: 780px; */
-  width: 100vw;
-  height: 100vh;
+  width: 1920px;
+  height: 780px;
   left: 0px;
   top: 0px;
-   background-image: url("./../../../public/assets/header_image\ 1.png"),
-    linear-gradient(180deg, rgba(14, 17, 28, 0.8) 0%, rgba(14, 17, 28, 0) 100%);
+  background-image: linear-gradient(
+      180deg,
+      rgba(14, 17, 28, 0.8) 0%,
+      rgba(14, 17, 28, 0) 100%
+    ),
+    url("../../assets/header_image\ 1.png");
+  background-size: cover;
 }

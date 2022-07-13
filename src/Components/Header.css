@@ -1,0 +1,86 @@
+.header-mid {
+  position: absolute;
+  width: 301px;
+  height: 18px;
+  left: 809px;
+  top: 30px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.telephone {
+  position: absolute;
+  width: 80px;
+  left: 1563px;
+  top: 30px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.telephone-box img {
+  height: 12px;
+  width: 8.7px;
+  position: absolute;
+  left: 1544px;
+  top: 31px;
+}
+
+.cart-icon img {
+  height: 15px;
+  width: 17.87px;
+  left: 1663px;
+  top: 30px;
+  position: absolute;
+}
+
+.cart-text {
+  position: absolute;
+  width: 39px;
+  height: 15px;
+  left: 1691px;
+  top: 30px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.signup-button {
+  position: absolute;
+  width: 130px;
+  height: 35px;
+  left: 1750px;
+  top: 20px;
+  background: #ffdb11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button-text{
+width: 99px;
+height: 18px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+color: #1A1A1A;
+}
