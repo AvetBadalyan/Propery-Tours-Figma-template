@@ -1,0 +1,37 @@
+import React from "react";
+import "./OurWork.css";
+import img1 from "./../../assets/our works/services/01.DRONE TRANSPORT.png";
+import img2 from "./../../assets/our works/services/02.REAL ESTATE.png";
+import img3 from "./../../assets/our works/services/03.Still photography.png";
+import img4 from "./../../assets/our works/services/04.AGENT VIDEO PRESENTATION.jpg";
+import img5 from "./../../assets/our works/services/05.SOCIAL MEDIA CONTENT.png";
+import img6 from "./../../assets/our works/services/06.virtual slideshow tour.png";
+import img7 from "./../../assets/our works/services/07.floor plans.png";
+
+export default function OurWork() {
+  const serviceArray = [
+    { img: img1, title: "DRONE TRANSPORT" },
+    { img: img2, title: "REAL ESTATE" },
+    { img: img3, title: "Still photography" },
+    { img: img4, title: "AGENT VIDEO PRESENTATION" },
+    { img: img5, title: "SOCIAL MEDIA CONTENT" },
+    { img: img6, title: "virtual slideshow tour" },
+    { img: img7, title: "floor plans" },
+  ];
+
+  return (
+    <div className="our-work">
+      <div className="left-column">
+        {serviceArray.map((service) => {
+          return (
+            <div key={Math.random()} className="service-box">
+              <img src={service.img} />
+              <p> {service.title}</p>
+            </div>
+          );
+        })}
+      </div>
+      <main className="our-work-main">main page</main>
+    </div>
+  );
+}
