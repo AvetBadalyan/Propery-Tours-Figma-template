@@ -5,15 +5,12 @@
 }
 
 .our-work-center {
-  height: 747px;
+  height: 80%;
   width: 90vw;
   border: 5px solid rgb(255, 0, 0);
   display: flex;
 }
 
-.our-work-main-right {
-  width: 50vw;
-  border: 2px solid violet;
-}
+
 
 
