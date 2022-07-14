@@ -1,13 +1,38 @@
 .our-work-main-right {
   width: 60vw;
-  border: 2px solid violet;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
-.big-image, .big-image img {
-    height: 70vh;
-    width: 55vw;
+.big-image,
+.big-image img {
+  height: 70vh;
+  width: 55vw;
+  margin-bottom: 1.7vh;
+}
+
+.little-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55vw;
+  height: 9vh;
+  opacity: 0.5;
+}
+
+.little-image {
+  width: 7vw;
+  height: 9vh;
+}
+
+.arrows-little-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-left-for-little-images, .arrow-right-for-little-images {
+    height: 13px;
+    width: 8px;
 }

@@ -1,6 +1,5 @@
 .our-work-top-part {
   height: 20%;
-  border: 2px solid aqua;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -1,13 +1,11 @@
 .our-work-main {
   width: 90vw;
-  border: 2px solid rgb(0, 17, 255);
   height: 900px;
 }
 
 .our-work-center {
   height: 80%;
   width: 90vw;
-  border: 5px solid rgb(255, 0, 0);
   display: flex;
 }
 
