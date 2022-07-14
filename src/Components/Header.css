@@ -1,28 +1,38 @@
-.header-mid {
-  position: absolute;
-  width: 301px;
-  height: 18px;
-  left: 809px;
-  top: 30px;
+.header {
+  width: 100vw;
+  height: 9.6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.empty-div {
+  width: 21.2vw;
+}
+
+.header-mid {
+  width: 21.2vw;
+  min-height: 2.3vh;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 18px;
-  /* identical to box height */
-
   color: #ffffff;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 21.2vw;
+}
+
 .telephone {
-  position: absolute;
   width: 80px;
-  left: 1563px;
-  top: 30px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 600;
@@ -31,28 +41,33 @@
   color: #ffffff;
 }
 
+.telephone-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 6.2vw;
+}
+
 .telephone-box img {
   height: 12px;
   width: 8.7px;
-  position: absolute;
-  left: 1544px;
-  top: 31px;
+}
+
+.cart-icon-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 4.5vw;
 }
 
 .cart-icon img {
   height: 15px;
   width: 17.87px;
-  left: 1663px;
-  top: 30px;
-  position: absolute;
 }
 
 .cart-text {
-  position: absolute;
   width: 39px;
   height: 15px;
-  left: 1691px;
-  top: 30px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 600;
@@ -62,11 +77,8 @@
 }
 
 .signup-button {
-  position: absolute;
   width: 130px;
   height: 35px;
-  left: 1750px;
-  top: 20px;
   background: #ffdb11;
   display: flex;
   justify-content: center;
@@ -74,13 +86,13 @@
   text-align: center;
 }
 
-.button-text{
-width: 99px;
-height: 18px;
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 18px;
-color: #1A1A1A;
+.button-text {
+  width: 99px;
+  height: 18px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1a1a1a;
 }

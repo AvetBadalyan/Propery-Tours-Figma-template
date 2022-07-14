@@ -1,6 +1,6 @@
 .home {
   width: 100vw;
-  height: 780px;
+  height: 100vh;
   background-image: linear-gradient(
       180deg,
       rgba(14, 17, 28, 0.8) 0%,
@@ -8,4 +8,6 @@
     ),
     url("../../assets/header_image\ 1.png");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }

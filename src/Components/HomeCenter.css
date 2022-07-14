@@ -1,25 +1,42 @@
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90.4vh;
+  width: 100vw;
+}
+
+.home-main-center-text-buttons {
+  height: 13.84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .center-text {
-  position: absolute;
-  height: 48px;
-  left: 672px;
-  top: 336px;
+  min-height: 48px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 4.5vh;
   line-height: 48px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 28vw;
 }
 
 .button1 {
-  position: absolute;
   width: 130px;
   height: 40px;
-  left: 750px;
-  top: 404px;
   background: rgb(255, 255, 255);
   font-family: "Nunito Sans";
   font-style: normal;
@@ -35,21 +52,15 @@
 }
 
 .button2 {
-  position: absolute;
   width: 130px;
   height: 40px;
-  left: 895px;
-  top: 404px;
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .button3 {
-  position: absolute;
   width: 130px;
   height: 40px;
-  left: 1040px;
-  top: 404px;
-background: rgba(255, 219, 17, 1);
-border: none;
+  background: rgba(255, 219, 17, 1);
+  border: none;
 }
