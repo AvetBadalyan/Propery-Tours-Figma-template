@@ -1,5 +1,6 @@
 .our-work-main-right {
   width: 60vw;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +9,7 @@
 
 .big-image,
 .big-image img {
-  height: 70vh;
+  height: 65vh;
   width: 55vw;
   margin-bottom: 1.7vh;
 }

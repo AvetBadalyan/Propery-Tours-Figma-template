@@ -1,10 +1,10 @@
 .our-work-main {
   width: 90vw;
-  height: 900px;
+  height: 100vh;
 }
 
 .our-work-center {
-  height: 80%;
+  height: 80vh;
   width: 90vw;
   display: flex;
 }
