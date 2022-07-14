@@ -1,0 +1,5 @@
+.servicing-area-map{
+    height: 59vh;
+    background:url("./../assets/servicing/map_big\ 1.png");
+    background-size: cover;
+}
