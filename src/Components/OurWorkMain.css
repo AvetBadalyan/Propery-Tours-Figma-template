@@ -1,0 +1,19 @@
+.our-work-main {
+  width: 90vw;
+  border: 2px solid rgb(0, 17, 255);
+  height: 900px;
+}
+
+.our-work-center {
+  height: 747px;
+  width: 90vw;
+  border: 5px solid rgb(255, 0, 0);
+  display: flex;
+}
+
+.our-work-main-right {
+  width: 50vw;
+  border: 2px solid violet;
+}
+
+

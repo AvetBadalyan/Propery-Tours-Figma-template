@@ -1,7 +1,7 @@
 import React from "react";
 import "./OurWork.css";
-import LeftColumn from "./LeftColumn";
-import OurWorkMain from "./OurWorkMain";
+import LeftColumn from './../../Components/LeftColumn';
+import OurWorkMain from "../../Components/OurWorkMain";
 
 export default function OurWork() {
   return (
