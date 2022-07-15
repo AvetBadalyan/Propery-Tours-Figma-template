@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  gap: 100px;
+  gap: 13.07vw;
   font-size: 12px;
 }
 
@@ -71,7 +71,7 @@ footer ul {
   width: 10vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 10vh;
   margin-bottom: 15px;
 }
