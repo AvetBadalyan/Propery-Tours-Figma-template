@@ -1,9 +1,7 @@
 .header {
-  width: 100vw;
-  height: 10%;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .empty-div {

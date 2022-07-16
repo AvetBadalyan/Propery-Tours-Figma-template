@@ -1,13 +1,12 @@
 .last-updates {
   min-height: 90vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .last-updates-left-half {
-  width: 50vw;
+  width: 50%;
   height: 90vh;
   background-color: white;
   display: flex;
@@ -21,7 +20,7 @@
 }
 
 .last-updates-right-half {
-  width: 50vw;
+  width: 50%;
   min-height: 90vh;
   background: rgba(57, 53, 53, 1);
   display: flex;
