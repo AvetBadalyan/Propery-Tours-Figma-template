@@ -7,6 +7,4 @@
     ),
     url("../../assets/header_image\ 1.png");
   background-size: cover;
-  display: flex;
-  flex-direction: column;
 }

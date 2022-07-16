@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   height: 90%;
-  width: 100vw;
 }
 
 .home-main-center-text-buttons {
@@ -20,7 +19,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 4.5vh;
-  line-height: 48px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -31,12 +29,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 28vw;
+  width: 22vw;
 }
 
 .button1 {
-  width: 130px;
-  height: 40px;
+  width: 6.771vw;
+  height: 2.083vw;
   background: rgb(255, 255, 255);
   font-family: "Nunito Sans";
   font-style: normal;
@@ -49,18 +47,25 @@
   justify-content: center;
   align-items: center;
   border: 2px solid rgba(255, 255, 255, 1);
+  transition: all 0.3s ease-in-out;
+}
+
+.button1:hover {
+background-color: #000000;
+color: white;
 }
 
 .button2 {
-  width: 130px;
-  height: 40px;
+  width: 6.771vw;
+  height: 2.083vw;
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 1);
+  color: white;
 }
 
 .button3 {
-  width: 130px;
-  height: 40px;
+  width: 6.771vw;
+  height: 2.083vw;
   background: rgba(255, 219, 17, 1);
   border: none;
 }
