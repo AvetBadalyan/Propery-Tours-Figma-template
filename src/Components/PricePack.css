@@ -2,10 +2,7 @@
   width: 85%;
   height: 70vh;
   display: flex;
-}
-
-body {
-    color: white;
+  border-collapse: collapse;
 }
 
 .price-table-left-column {
@@ -22,7 +19,7 @@ body {
 
 .service-types {
   height: 63%;
-  border: 1px solid black;
+  border: 1px solid rgb(235, 235, 235);
 }
 
 .price-table-empty-div-bottom {
@@ -39,42 +36,63 @@ body {
 .price-column {
   width: 20%;
   height: 100%;
-  border: 1px solid black;
+  border: 1px solid rgb(235, 235, 235);
 }
 
 .price-column-top {
   height: 22%;
-  border: 1px solid black;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.625vw;
+  text-align: center;
+
+  color: #1a1a1a;
 }
 
 .price-column-mid {
   height: 63%;
-  border: 1px solid black;
 }
 
 .price-column-bottom {
   height: 15%;
-  border: 1px solid black;
 }
 
 .price-cell {
   height: 14.3%;
-  border: 1px solid black;
 }
 
 .service-type {
   height: 14.3%;
-  border: 1px solid black;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.service-type img {
+  width: 30px;
+  height: 23px;
+}
+
+.service-name {
+  width: 7.813vw;
+  height: 2.33vh;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.625vw;
+  text-transform: uppercase;
+
+  color: #1a1a1a;
 }
 
 .cart-icon img {
@@ -97,12 +115,78 @@ body {
   gap: 1vh;
 }
 
-.check-true{
-    background-color: yellow;
-    border-radius: 50%;
-    width: 15%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.check-true {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 15%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-true img {
+  width: 15px;
+  height: 13px;
+}
+
+.check-false {
+  background-color: white;
+  color: rgb(180, 180, 180);
+  border-radius: 50%;
+  border: 1px solid rgb(180, 180, 180);
+  width: 14%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.added-false {
+  background-color: rgba(255, 219, 17, 1);
+  color: rgb(180, 180, 180);
+  border-radius: 50%;
+  border: 1px solid rgb(180, 180, 180);
+  width: 14%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pack-name {
+  width: 6.77vw;
+  height: 6.67vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service-price {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.042vw;
+  color: #1a1a1a;
+}
+
+.added {
+  background: rgba(255, 219, 17, 1);
+}
+
+.added-check {
+  background-color: white;
+  color: rgba(255, 219, 17, 1);
+  border-radius: 50%;
+  width: 15%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.added-check img {
+  width: 15px;
+  height: 13px;
 }
