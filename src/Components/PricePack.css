@@ -1,64 +1,108 @@
-.price-table{
-    width: 85%;
-    height: 70vh;
-    display: flex;
+.price-table {
+  width: 85%;
+  height: 70vh;
+  display: flex;
 }
 
-.price-table-left-column{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+body {
+    color: white;
+}
+
+.price-table-left-column {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .price-table-empty-div-top {
-    height: 22%;
+  height: 22%;
 }
 
-.service-types{
-    height: 63%;
-    border: 1px solid black;
+.service-types {
+  height: 63%;
+  border: 1px solid black;
 }
 
-.price-table-empty-div-bottom{
-    height: 15%;
+.price-table-empty-div-bottom {
+  height: 15%;
 }
 
-.price-table-main-columns{
+.price-table-main-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.price-column {
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.price-column-top {
+  height: 22%;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.price-column-mid {
+  height: 63%;
+  border: 1px solid black;
+}
+
+.price-column-bottom {
+  height: 15%;
+  border: 1px solid black;
+}
+
+.price-cell {
+  height: 14.3%;
+  border: 1px solid black;
+}
+
+.service-type {
+  height: 14.3%;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon img {
+  height: 15px;
+}
+
+.price-column-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-in-cart {
+  height: 50%;
+  width: 60%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+
+.check-true{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 15%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-}
-
-.price-column{
-    width: 20%;
-    height: 100%;
-     border: 1px solid black;
-}
-
-.price-column-top{
-    height: 22%;
-    border: 1px solid black;
-}
-
-.price-column-mid{
-    height: 63%;
-    border: 1px solid black;
-}
-
-.price-column-bottom{
-     height: 15%;
-    border: 1px solid black;
-}
-
-.price-cell{
-    height: 14.3%;
-   border: 1px solid black;
-}
-
-.service-type{
-        height: 14.3%;
-   border: 1px solid black;
 }
