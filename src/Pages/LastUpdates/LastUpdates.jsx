@@ -1,7 +1,7 @@
 import React from "react";
 import "./LastUpdates.css";
 import lastUpdates from "./../../assets/last updates image.png";
-import LastUpdatesText from "../../Components/LastUpdatesText";
+import LastUpdatesText from './../../Components/LastUpdates/LastUpdatesText';
 
 export default function LastUpdates() {
     return (

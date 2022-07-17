@@ -1,14 +1,14 @@
 import React from "react";
 import "./OurWorkTop.css";
-import filter1 from "./../assets/our works/filters/01.all.png";
-import filter2 from "./../assets/our works/filters/02.detached.png";
-import filter3 from "./../assets/our works/filters/03.semi detached.png";
-import filter4 from "./../assets/our works/filters/04.condo.png";
-import filter5 from "./../assets/our works/filters/05.estates.png";
-import filter6 from "./../assets/our works/filters/06.luxury.png";
-import filter7 from "./../assets/our works/filters/07.modern.png";
-import filter8 from "./../assets/our works/filters/08.traditional.png";
-import filter9 from "./../assets/our works/filters/09.classic.png";
+import filter1 from "./../../assets/our works/filters/01.all.png";
+import filter2 from "./../../assets/our works/filters/02.detached.png";
+import filter3 from "./../../assets/our works/filters/03.semi detached.png";
+import filter4 from "./../../assets/our works/filters/04.condo.png";
+import filter5 from "./../../assets/our works/filters/05.estates.png";
+import filter6 from "./../../assets/our works/filters/06.luxury.png";
+import filter7 from "./../../assets/our works/filters/07.modern.png";
+import filter8 from "./../../assets/our works/filters/08.traditional.png";
+import filter9 from "./../../assets/our works/filters/09.classic.png";
 
 export default function OurWorkTop() {
   const categories = [
@@ -31,7 +31,7 @@ export default function OurWorkTop() {
         <div className="filter-menu-text">Filter by</div>
         {categories.map((category) => {
           return (
-            <button className="filter-category-button">
+            <button key={Math.random()} className="filter-category-button">
               <img src={category.filter} alt="category-image" />
               <div>{category.title}</div>
               <div className="empty-div"></div>

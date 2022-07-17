@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from '../../Components/Footer';
-import ServicingAreaheader from '../../Components/ServicingAreaheader';
-import ServicingAreaMap from '../../Components/ServicingAreaMap';
 import "./ServicingArea.css"
+import ServicingAreaheader from './../../Components/ServicingArea/ServicingAreaheader';
+import ServicingAreaMap from './../../Components/ServicingArea/ServicingAreaMap';
+import Footer from './../../Components/ServicingArea/Footer';
 
 export default function ServicingArea() {
   return (

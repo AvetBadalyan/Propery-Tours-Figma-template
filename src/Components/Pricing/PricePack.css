@@ -115,6 +115,11 @@
   gap: 1vh;
 }
 
+.button-added{
+  background-color: black;
+  color: white;
+}
+
 .check-true {
   background-color: yellow;
   border-radius: 50%;

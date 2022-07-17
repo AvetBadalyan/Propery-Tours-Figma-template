@@ -1,8 +1,8 @@
 import React from "react";
 import "./OurWorkMain.css";
-import OurWorkTop from "./OurWorkTop";
 import OurWorkMainLeft from "./OurWorkMainLeft";
 import OurWorkMainRight from "./OurWorkMainRight";
+import OurWorkTop from "./OurWorkTop";
 
 export default function OurWorkMain() {
   return (
@@ -10,7 +10,7 @@ export default function OurWorkMain() {
       <OurWorkTop />
       <div className="our-work-center">
         <OurWorkMainLeft />
-     <OurWorkMainRight />
+        <OurWorkMainRight />
       </div>
     </div>
   );

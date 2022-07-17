@@ -1,14 +1,14 @@
 import React from "react";
 import "./LeftColumn.css";
-import img1 from "./../assets/our works/services/01.DRONE TRANSPORT.png";
-import img2 from "./../assets/our works/services/02.REAL ESTATE.png";
-import img3 from "./../assets/our works/services/03.Still photography.png";
-import img4 from "./../assets/our works/services/04.AGENT VIDEO PRESENTATION.jpg";
-import img5 from "./../assets/our works/services/05.SOCIAL MEDIA CONTENT.png";
-import img6 from "./../assets/our works/services/06.virtual slideshow tour.png";
-import img7 from "./../assets/our works/services/07.floor plans.png";
-import arrowDown from "./../assets/our works/arrow.png";
-import arrowUp from "./../assets/our works/arrowUp.png";
+import img1 from "./../../assets/our works/services/01.DRONE TRANSPORT.png";
+import img2 from "./../../assets/our works/services/02.REAL ESTATE.png";
+import img3 from "./../../assets/our works/services/03.Still photography.png";
+import img4 from "./../../assets/our works/services/04.AGENT VIDEO PRESENTATION.jpg";
+import img5 from "./../../assets/our works/services/05.SOCIAL MEDIA CONTENT.png";
+import img6 from "./../../assets/our works/services/06.virtual slideshow tour.png";
+import img7 from "./../../assets/our works/services/07.floor plans.png";
+import arrowDown from "./../../assets/our works/arrow.png";
+import arrowUp from "./../../assets/our works/arrowUp.png";
 
 export default function LeftColumn() {
   const serviceArray = [

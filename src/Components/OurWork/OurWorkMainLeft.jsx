@@ -1,6 +1,6 @@
 import React from "react";
 import "./OurWorkMainLeft.css";
-import play from "./../assets/our works/Vector.png";
+import play from "./../../assets/our works/Vector.png";
 
 export default function OurWorkMainLeft() {
   return (

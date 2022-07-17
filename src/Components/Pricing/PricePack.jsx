@@ -1,12 +1,12 @@
 import React from "react";
 import "./PricePack.css";
-import check from "./../assets/check.png";
-import photo1 from "./../assets/price services/1.HDR Photo ( qty.).png";
-import photo3 from "./../assets/price services/3.scan.png";
-import photo4 from "./../assets/price services/4.dron.png";
-import photo6 from "./../assets/price services/6.instagram.png";
-import photo7 from "./../assets/price services/7.globe.png";
-import yellowCheck from "./../assets/yellow check.png";
+import check from "./../../assets/check.png";
+import photo1 from "./../../assets/price services/1.HDR Photo ( qty.).png";
+import photo3 from "./../../assets/price services/3.scan.png";
+import photo4 from "./../../assets/price services/4.dron.png";
+import photo6 from "./../../assets/price services/6.instagram.png";
+import photo7 from "./../../assets/price services/7.globe.png";
+import yellowCheck from "./../../assets/yellow check.png";
 
 export default function PricePack() {
   const serviceTypes = [
@@ -16,7 +16,7 @@ export default function PricePack() {
       check: [true, true, true, true, true],
     },
     {
-      img: <i class="fa-brands fa-youtube"></i>,
+      img: <i className="fa-brands fa-youtube"></i>,
       text: "Cinematic Video",
       check: [false, true, false, true, true],
     },
@@ -31,7 +31,7 @@ export default function PricePack() {
       check: [false, false, false, false, true],
     },
     {
-      img: <i class="fa-regular fa-presentation-screen"></i>,
+      img: <i className="fa-regular fa-presentation-screen"></i>,
       text: "SLIDESHOW",
       check: [false, false, false, false, true],
     },
@@ -86,7 +86,10 @@ export default function PricePack() {
       </div>
       <div className="price-table-main-columns">
         {priceColums.map((column, colIndex) => (
-          <div className={column.added ? "price-column added" : "price-column"}>
+          <div
+            key={Math.random()}
+            className={column.added ? "price-column added" : "price-column"}
+          >
             <div className="price-column-top">
               <div className="service-price"> {column.price}</div>
               <div className="pack-name"> {column.packName} </div>
@@ -116,9 +119,14 @@ export default function PricePack() {
               ))}
             </div>
             <div className="price-column-bottom">
-              <button className="add-in-cart">
-                <i class="fa-solid fa-basket-shopping"></i>
-                <p>Add</p>
+              <button
+                className={
+                  column.added ? "add-in-cart button-added" : "add-in-cart"
+                }
+              >
+                <i className="fa-solid fa-basket-shopping"></i>
+                {!column.added && <p>Add</p>}
+                {column.added && <p>Added</p>}
               </button>
             </div>
           </div>

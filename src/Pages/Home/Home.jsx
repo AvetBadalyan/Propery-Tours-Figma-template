@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../../Components/Header';
-import HomeCenter from '../../Components/HomeCenter';
 import "./Home.css"
+import Header from './../../Components/Home/Header';
+import HomeCenter from './../../Components/Home/HomeCenter';
 
 export default function Home() {
   return (

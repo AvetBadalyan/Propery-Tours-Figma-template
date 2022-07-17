@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import clock from "./../assets/clock.png"
+import clock from "./../../assets/clock.png";
 
 export default function Footer() {
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="social-links">
           <div className="contact">
             <i
-              class="fa-solid fa-mobile-screen-button"
+              className="fa-solid fa-mobile-screen-button"
   
             ></i>
             <p>(000) 000 0000</p>

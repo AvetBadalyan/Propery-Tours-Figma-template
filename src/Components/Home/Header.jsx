@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import telephone from "./../assets/telephone.png";
-import cart from "./../assets/cart-icon.png";
+import telephone from "./../../assets/telephone.png";
+import cart from "./../../assets/cart-icon.png";
 
 export default function Header() {
   return (

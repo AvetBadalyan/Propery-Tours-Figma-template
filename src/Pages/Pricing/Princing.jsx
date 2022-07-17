@@ -1,7 +1,7 @@
 import React from "react";
-import PricingMain from "../../Components/PricingMain";
-import PricingTop from "../../Components/PricingTop";
 import "./Pricing.css"
+import PricingTop from './../../Components/Pricing/PricingTop';
+import PricingMain from './../../Components/Pricing/PricingMain';
 
 export default function Princing() {
     return <div className="princing-page">
