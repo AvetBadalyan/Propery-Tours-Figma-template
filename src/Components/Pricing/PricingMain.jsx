@@ -1,9 +1,11 @@
 import React from "react";
 import PricePack from "./PricePack";
-import "./PricingMain.css"
+import "./PricingMain.css";
 
 export default function PricingMain() {
-    return <div className="pricing-main">
+  return (
+    <div className="pricing-main">
       <PricePack />
-  </div>;
+    </div>
+  );
 }

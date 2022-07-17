@@ -27,17 +27,17 @@
   color: #000000;
 }
 
-.pricing-paragraph{
-    width: 31vw;
+.pricing-paragraph {
+  width: 31vw;
 }
 
 .pricing-top-text p {
-    font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-text-align: center;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
 
-color: #6F6F6F;
+  color: #6f6f6f;
 }
