@@ -1,7 +1,9 @@
 import React from "react";
 import photo1 from "./../../assets/price services/1.HDR Photo ( qty.).png";
+import photo2 from "./../../assets/price services/play video.png";
 import photo3 from "./../../assets/price services/3.scan.png";
 import photo4 from "./../../assets/price services/4.dron.png";
+import photo5 from "./../../assets/price services/slideshow.png";
 import photo6 from "./../../assets/price services/6.instagram.png";
 import photo7 from "./../../assets/price services/7.globe.png";
 
@@ -12,7 +14,7 @@ const serviceTypes = [
     check: [true, true, true, true, true],
   },
   {
-    img: <i className="fa-brands fa-youtube"></i>,
+    img: photo2,
     text: "Cinematic Video",
     check: [false, true, false, true, true],
   },
@@ -27,7 +29,7 @@ const serviceTypes = [
     check: [false, false, false, false, true],
   },
   {
-    img: <i className="fa-regular fa-presentation-screen"></i>,
+    img: photo5,
     text: "SLIDESHOW",
     check: [false, false, false, false, true],
   },
