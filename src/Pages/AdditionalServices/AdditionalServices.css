@@ -107,7 +107,7 @@
 
 .single-additional-card ul li::before {
   content: "• ";
-  color: yellow;
+  color: rgba(255, 219, 17, 1);
 }
 
 .quick-preview-button {

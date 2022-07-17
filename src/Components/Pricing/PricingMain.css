@@ -1,7 +1,8 @@
 .pricing-main {
 background-color: white;
 display: flex;
-justify-content: center;
+flex-direction: column;
+justify-content: space-around;
 align-items: center;
 height: 82%;
 width: 100%;
