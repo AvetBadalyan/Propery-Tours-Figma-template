@@ -1,3 +1,11 @@
+![Home](./screenshots/home.jpg)
+![our work](./screenshots/our%20work.jpg)
+![pricing](./screenshots/pricing.jpg)
+![updates](./screenshots/last%20updates.jpg)
+![reviews](./screenshots/reviews.jpg)
+![additional](./screenshots/additional.jpg)
+![footer](./screenshots/footer.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
