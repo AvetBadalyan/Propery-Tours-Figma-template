@@ -34,7 +34,6 @@ export default function OurWorkTop() {
             <button key={Math.random()} className="filter-category-button">
               <img src={category.filter} alt="category-image" />
               <div>{category.title}</div>
-              <div className="empty-div"></div>
             </button>
           );
         })}

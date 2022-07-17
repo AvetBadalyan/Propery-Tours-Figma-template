@@ -8,3 +8,13 @@
     url("../../assets/header_image\ 1.png");
   background-size: cover;
 }
+
+@media screen and (max-width: 376px) {
+  body {
+    background: url("./../../assets/media/header_image\ media.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
+}

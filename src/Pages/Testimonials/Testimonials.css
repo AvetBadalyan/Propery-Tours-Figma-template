@@ -1,0 +1,65 @@
+.Testimonials {
+  width: 100%;
+  height: 33.33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonials-content {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonials-content h1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.7vh;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.all-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-review {
+  display: flex;
+  gap: 10px;
+  width: 33%;
+}
+
+.star img {
+  width: 1.2vw;
+  height: 2vh;
+}
+
+.review-image img {
+  width: 2vw;
+  height: 4vh;
+}
+.review-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vh;
+  color: #6f6f6f;
+}
+
+.review-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
