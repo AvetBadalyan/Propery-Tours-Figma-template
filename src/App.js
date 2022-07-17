@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css"
+import AdditionalServices from './Pages/AdditionalServices/AdditionalServices';
 import Home from './Pages/Home/Home';
 import LastUpdates from './Pages/LastUpdates/LastUpdates';
 import OurWork from './Pages/OurWork/OurWork';
@@ -12,6 +13,7 @@ export default function App() {
       <Home />
       <OurWork />
       <Princing />
+      <AdditionalServices />
       <LastUpdates />
       <ServicingArea />
     </div>

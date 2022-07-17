@@ -1,0 +1,32 @@
+.additional-services{
+    width: 100%;
+    height: 54vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.additional-services-text{
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-services-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 60%;
+}
+
+.single-additional-card{
+    width: 14.6vw;
+    height: 100%;
+    border: 1px solid black;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
